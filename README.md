@@ -16,8 +16,9 @@ The user story
 - scaffold a new application
 - test the application
 - add a custom package
+- publish a package
 - deploy an application 
-- publish the application
+
 
 
 screen capture
