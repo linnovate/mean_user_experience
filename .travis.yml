@@ -1,4 +1,5 @@
 # http://about.travis-ci.org/docs/user/gui-and-headless-browsers/
+
 language: node_js
 
 cache:
