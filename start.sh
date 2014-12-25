@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 set -u
+export dir_root=$(cd `basename $0`;echo $PWD)
 
 set_env(){
-export dir_root=$(pwd)
 export file_cfg=$dir_root/test/sh/config.cfg
 export file_capture=$dir_root/test/sh/capture.sh
 export address=0
@@ -48,9 +48,9 @@ while true; do  curl $address 2>/dev/null && break ; sleep 1 ; done
 }
 
 test_mean_init(){
-
+cd $dir_root
 echo -e '\n' |  mean init myApp
-cd myApp
+cd $dir_root/myApp
 user_instructions
 test_navigation
 cd $dir_root
