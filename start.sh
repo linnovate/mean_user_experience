@@ -20,19 +20,19 @@ chmod +x $file_capture
 source $file_cfg
 }
 
-test_self(){
-sudo apt-get install -y -q curl
-npm install bower
-npm install -g
-npm link
-npm test
-}
+
 
 grunt_stuff(){
 commander cat Gruntfile.js
 commander grunt test || { exit 1; }
 trace 'Running grunt now ..';
 commander grunt &
+}
+
+
+install_pre(){
+sudo apt-get install -y -q curl
+npm install bower grunt grunt-cli 
 }
 
 user_instructions(){
@@ -48,6 +48,7 @@ while true; do  curl $address 2>/dev/null && break ; sleep 1 ; done
 }
 
 test_mean_init(){
+
 echo -e '\n' |  mean init myApp
 cd myApp
 user_instructions
@@ -56,7 +57,8 @@ cd $dir_root
 }
 
 tests(){
-test_self
+#test_self
+install_pre
 test_mean_init
 }
 
