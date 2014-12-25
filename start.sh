@@ -44,7 +44,7 @@ commander grunt_stuff
 }
 
 test_navigation(){
-while true; do  commander curl $address 2>/dev/null && break ; sleep 1 ; done
+while true; do  curl $address 2>/dev/null && break ; sleep 1 ; done
 }
 
 test_mean_init(){
