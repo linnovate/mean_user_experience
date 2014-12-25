@@ -22,4 +22,4 @@ The user story
 
 screen capture
 ----
-[! Automated screen capture](https://circle-artifacts.com/gh/linnovate/mean_user_experience/9/artifacts/0/tmp/circle-artifacts.ats050M/session_1419528122.png)
+![Automated screen capture](https://circle-artifacts.com/gh/linnovate/mean_user_experience/9/artifacts/0/tmp/circle-artifacts.ats050M/session_1419528122.png)
