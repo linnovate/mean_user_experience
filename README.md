@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/linnovate/mean_user_experience.svg?branch=master)](https://travis-ci.org/linnovate/mean_user_experience)
+[![Circle CI](https://circleci.com/gh/linnovate/mean_user_experience.svg?style=svg)](https://circleci.com/gh/linnovate/mean_user_experience)
+
 The user story
 ==============
 - Target: improve the user experience
