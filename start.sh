@@ -10,7 +10,7 @@ export address=0
 if [ "$LOGNAME" = travis ];then
   address='0.0.0.0:3000'
 else
-  address='0.0.0.0:3001'
+  address='0.0.0.0:3000'
 fi
 
 test -f $file_capture
