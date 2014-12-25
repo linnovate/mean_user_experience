@@ -11,8 +11,8 @@ The user story
 - install system prerequisites
 - install npm dependencies
 - scaffold a new application
-- test the new application
+- test the application
 - add a custom package
-- deploy our application 
+- deploy an application 
 - publish the application
 
