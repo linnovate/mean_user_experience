@@ -32,7 +32,7 @@ commander grunt &
 
 install_pre(){
 sudo apt-get install -y -q curl 
-npm install -g bower grunt grunt-cli mean-cli
+npm install -g bower grunt-cli mean-cli
 }
 
 user_instructions(){
